@@ -269,3 +269,51 @@ ul p{
 /* .blackBorder:hover{
     opacity: 1;
 } */
+
+@media screen and (max-width:1200px) {
+    .introImg{
+        width: 350px;
+        height: 454px;
+        float: right;
+        position: sticky;
+        top: 180px;
+        overflow: hidden;
+    }
+    .introduceBox{
+        padding: 50px 10px;
+        height: 1400px;
+    }
+}
+
+
+
+@media screen and (max-width:1000px){
+    .introImg{
+        width: 300px;
+        height: 454px;
+        float: right;
+        position: sticky;
+        top: 180px;
+        overflow: hidden;
+    }
+    .introduceBox{
+        padding: 50px 10px;
+        height: 1700px;
+    }
+
+}
+
+@media screen and (max-width:808px) {
+    .introImg{
+        width: 250px;
+        height: 654px;
+        float: right;
+        position: sticky;
+        top: 180px;
+        overflow: hidden;
+    }
+    .introduceBox{
+        padding: 50px 10px;
+        height: 1700px;
+    }
+}
